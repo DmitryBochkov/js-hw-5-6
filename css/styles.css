@@ -1,0 +1,49 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.stopwatch {
+  width: 400px;
+  margin: 30px auto;
+  padding: 5px;
+  background: #cfcde2;
+  font: bold 46px Arial, sans-serif;
+  position: relative;
+  border: 10px solid #000;
+  border-radius: 30px;
+}
+span {
+  position: absolute;
+  top: 100px;
+  left: 255px;
+  font-size: 24px;
+}
+.startPause,
+.clear {
+  width: 180px;
+  margin: 10px 20px;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #0b8329;
+  border: 3px solid #000;
+  border-radius: 20px;
+  outline: none;
+}
+.clear {
+  background: #ba0721;
+}
+.startPause:hover,
+.clear:hover,
+.startPause:focus,
+.clear:focus {
+  opacity: 0.85;
+  cursor: pointer;
+}
+.startPause:active,
+.clear:active {
+  opacity: 1;
+  color: #000;
+}
